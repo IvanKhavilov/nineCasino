@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Get ready to hit the jackpot at NineCasino ★ Experience non-stop gaming excitement and win big with our unbeatable selection of games!"
+      content="NineCasino site oficial ⚡ Melhor cassino online no Brasil. Jogue mais de 5000 jogos a dinheiro real. Bônus de R$ 4,500 e 30 rodadas grátis sem depósito."
     />
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-    <title>NineCasino - Play Slots Online for Free or Real Money</title>
+    <link rel="shortcut icon" type="image/webp" href="images/favicon.webp" />
+    <title>NineCasino Brasil ❤️ Site oficial do cassino online</title>
     <style type="text/css">
       *,
       ::after,
@@ -380,7 +380,6 @@
         padding-left: 30px;
       }
       .spoiler__list-item {
-        /* color: #00eceb; */
         font-weight: 700;
       }
       .spoiler__list-item {
@@ -446,6 +445,51 @@
       }
       .questions__input:checked ~ .questions__content {
         display: block;
+      }
+      .comments__item {
+        padding: 25px 20px 30px;
+        border-radius: 10px;
+        background-color: #161d37;
+        position: relative;
+      }
+      .comments__item + .comments__item {
+        margin-top: 40px;
+      }
+      .comments__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .comments__name {
+        font-weight: 700;
+        font-size: 17px;
+      }
+      .comments__star {
+        display: flex;
+        height: 16px;
+        width: 89px;
+        margin-bottom: 0.5rem;
+        background-image: url('images/rating.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 30px;
+      }
+      .comments__btn {
+        position: absolute;
+        bottom: -15px;
+        right: 3%;
+        background-color: #c34b09;
+        border: none;
+        color: #fff;
+        padding: 7px 30px 6px;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: background 0.5s;
+      }
+      .comments__btn:hover {
+        background-color: #f67024;
       }
       .footer {
         padding: 50px 0;
@@ -567,6 +611,16 @@
         .questions__label::after {
           right: 11px;
         }
+        .comments__info {
+          flex-direction: column;
+          align-items: start;
+        }
+        .comments__name {
+          margin-bottom: 10px;
+        }
+        .comments__btn {
+          padding: 5px 30px;
+        }
       }
       @media (max-width: 370px) {
         .header__btn-box {
@@ -582,8 +636,8 @@
         <label class="menu-burger__label" for="burger"><span></span></label>
         <nav class="menu">
           <div class="btn-box btn-box--mobile">
-            <a class="btn__link--mobile log-in--mobile" href="go">Log in</a>
-            <a class="btn__link--mobile registration--mobile" href="go">Registration</a>
+            <a class="btn__link--mobile log-in--mobile" href="go">Entrar</a>
+            <a class="btn__link--mobile registration--mobile" href="go">Registre-se</a>
           </div>
           <p class="menu__title">
             <svg viewBox="0 0 24 24" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -600,7 +654,7 @@
                 fill="#d0d2d7"
               ></path>
             </svg>
-            Casino
+            Cassino
           </p>
           <ul class="menu__list">
             <li class="menu__item">
@@ -610,7 +664,7 @@
                   fill="#d0d2d7"
                 ></path>
               </svg>
-              <a class="menu__link" href="go">Live Casino</a>
+              <a class="menu__link" href="go">Cassino Ao Vivo</a>
             </li>
             <li class="menu__item">
               <svg viewBox="0 0 24 25" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -619,7 +673,7 @@
                   fill="#d0d2d7"
                 ></path>
               </svg>
-              <a class="menu__link" href="go">Top Games</a>
+              <a class="menu__link" href="go">Os melhores jogos</a>
             </li>
             <li class="menu__item">
               <svg viewBox="0 0 24 24" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -661,7 +715,7 @@
                   fill="#d0d2d7"
                 ></path>
               </svg>
-              <a class="menu__link" href="go">Roulette</a>
+              <a class="menu__link" href="go">Roleta</a>
             </li>
             <li class="menu__item">
               <svg viewBox="0 0 24 25" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -672,7 +726,7 @@
                   fill="#d0d2d7"
                 ></path>
               </svg>
-              <a class="menu__link" href="go">Books</a>
+              <a class="menu__link" href="go">Livros</a>
             </li>
             <li class="menu__item">
               <svg viewBox="0 0 24 25" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -698,7 +752,7 @@
                   fill="#d0d2d7"
                 ></path>
               </svg>
-              <a class="menu__link" href="go">Table</a>
+              <a class="menu__link" href="go">Mesa</a>
             </li>
           </ul>
           <p class="menu__title">
@@ -708,7 +762,7 @@
                 fill="#d0d2d7"
               ></path>
             </svg>
-            Sports
+            Esportes
           </p>
           <ul class="menu__list">
             <li class="menu__item">
@@ -736,7 +790,7 @@
                   fill="#d0d2d7"
                 ></path>
               </svg>
-              <a class="menu__link" href="go">Live Sports</a>
+              <a class="menu__link" href="go">Esportes Ao Vivo</a>
             </li>
             <li class="menu__item">
               <svg viewBox="0 0 24 24" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -745,24 +799,24 @@
                   fill="#d0d2d7"
                 ></path>
               </svg>
-              <a class="menu__link" href="go">Sports Results</a>
+              <a class="menu__link" href="go">Resultados esportivos</a>
             </li>
           </ul>
         </nav>
         <img class="logo__img" src="images/logo-main.svg" alt="logo" width="143" height="29" />
         <div class="btn-box header__btn-box">
-          <a class="btn__link log-in" href="go">Log in</a>
-          <a class="btn__link registration" href="go">Registration</a>
+          <a class="btn__link log-in" href="go">Entrar</a>
+          <a class="btn__link registration" href="go">Registre-se</a>
         </div>
       </div>
     </header>
     <section class="content">
       <div class="main">
-        <p class="main__text">WELCOME PACKAGE</p>
-        <p class="main__text main__text-title">€450</p>
-        <p class="main__text main__text--yelov">+ 250 Free Spins</p>
+        <p class="main__text">PACOTE DE BOAS-VINDAS</p>
+        <p class="main__text main__text-title">R$ 4,500</p>
+        <p class="main__text main__text--yelov">+ Roda da fortuna grátis</p>
         <button class="main__btn">
-          <span>Registration</span>
+          <span>Registre-se agora</span>
         </button>
       </div>
     </section>
@@ -879,7 +933,7 @@
               </a>
             </div>
           </div>
-          <a class="more-games" href="go">Play 5000+ games</a>
+          <a class="more-games" href="go">Todos os jogos</a>
         </div>
       </div>
     </section>
@@ -888,7 +942,7 @@
         <div class="content__inner">
           <div class="spoiler">
             <input class="spoiler__input" type="checkbox" id="content" />
-            <label class="spoiler__label" for="content">Content</label>
+            <label class="spoiler__label" for="content">Teor</label>
             <div class="spoiler__content">
               <ol class="spoiler__list">
                 <li class="spoiler__list-item">
@@ -922,7 +976,10 @@
                   <a href="#Jogo-responsável">Jogo responsável</a>
                 </li>
                 <li class="spoiler__list-item">
-                  <a href="#questions">FAQ</a>
+                  <a href="#questions">Perguntas frequentes</a>
+                </li>
+                <li class="spoiler__list-item">
+                  <a href="#comments">Comentários</a>
                 </li>
               </ol>
             </div>
@@ -1083,7 +1140,7 @@
     <section class="content">
       <div class="container">
         <div class="content__inner" id="questions">
-          <h2>Perguntas e Respostas</h2>
+          <h2>Perguntas frequentes</h2>
           <div class="questions__item">
             <input class="questions__input" type="checkbox" id="question-1" />
             <label class="questions__label" for="question-1">Quais jogos posso jogar no NineCasino? </label>
@@ -1129,6 +1186,78 @@
         </div>
       </div>
     </section>
+    <section class="content">
+      <div class="container">
+        <div class="content__inner" id="comments">
+          <h2>Comentários</h2>
+          <div class="comments__item">
+            <div class="comments__info">
+              <p class="comments__name">David Peters 17.08.2023</p>
+              <span class="comments__star">
+                <span class="comments__star--yelov" style="width: 100%; background-image: url('images/fullrating.svg')"></span>
+              </span>
+            </div>
+            <p class="comments__text">
+              Ik ben erg blij met deze goksite. Het werkt extreem snel. Wizebets casino inloggen kostte me 2 minuten. Ik raad
+              iedereen aan om hier te spelen.
+            </p>
+            <a class="comments__btn" href="#">Resposta</a>
+          </div>
+          <div class="comments__item">
+            <div class="comments__info">
+              <p class="comments__name">Thijs Ten Wolde 16.08.2023</p>
+              <span class="comments__star">
+                <span class="comments__star--yelov" style="width: 80%; background-image: url('images/fullrating.svg')"></span>
+              </span>
+            </div>
+            <p class="comments__text">
+              Leuke site, ik ben altijd op zoek naar nieuwe aanbiedingen op de Nederlandse markt. Dit is een zeer waardig aanbod,
+              zeer goede indrukken.
+            </p>
+            <a class="comments__btn" href="#">Resposta</a>
+          </div>
+          <div class="comments__item">
+            <div class="comments__info">
+              <p class="comments__name">Cornelia De Groot 15.08.2023</p>
+              <span class="comments__star">
+                <span class="comments__star--yelov" style="width: 100%; background-image: url('images/fullrating.svg')"></span>
+              </span>
+            </div>
+            <p class="comments__text">
+              Ik denk dat deze site een kijkje waard is. Het ontwerp van wizebet is mooi en duidelijk. Alle populaire
+              betaalmethoden zijn beschikbaar. Er zijn goede van echte spelers.
+            </p>
+            <a class="comments__btn" href="#">Resposta</a>
+          </div>
+          <div class="comments__item">
+            <div class="comments__info">
+              <p class="comments__name">Lotte De Clercq 14.08.2023</p>
+              <span class="comments__star">
+                <span class="comments__star--yelov" style="width: 90%; background-image: url('images/fullrating.svg')"></span>
+              </span>
+            </div>
+            <p class="comments__text">
+              Leuke bonussen, mooi design, snelle uitbetalingen en professioneel ondersteunend personeel! We waren verrast! Je
+              kunt het proberen!
+            </p>
+            <a class="comments__btn" href="#">Resposta</a>
+          </div>
+          <div class="comments__item">
+            <div class="comments__info">
+              <p class="comments__name">Johan Jansen 13.08.2023</p>
+              <span class="comments__star">
+                <span class="comments__star--yelov" style="width: 100%; background-image: url('images/fullrating.svg')"></span>
+              </span>
+            </div>
+            <p class="comments__text">
+              Dit is een coole site. Wizibets casino geeft alleen maar positieve emoties. Transacties worden zonder vertraging
+              uitgevoerd. Er zijn veel spellen van verschillende genres. Geweldig bonusbeleid. Beleefde technische ondersteuning.
+            </p>
+            <a class="comments__btn" href="#">Resposta</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer class="footer">
       <div class="container">
         <div class="footer__inner">
@@ -1138,20 +1267,20 @@
             </div>
             <div class="footer__nav-item">
               <ul class="footer__list">
-                <li class="footer__list-item"><a href="#">Promotions</a></li>
-                <li class="footer__list-item"><a href="#">About Us</a></li>
-                <li class="footer__list-item"><a href="#">About BTC</a></li>
-                <li class="footer__list-item"><a href="#">AML Police</a></li>
-                <li class="footer__list-item"><a href="#">Terms & Conditions</a></li>
-                <li class="footer__list-item"><a href="#">Responsible Games</a></li>
-                <li class="footer__list-item"><a href="#">Risk Warnings</a></li>
-                <li class="footer__list-item"><a href="#">Privacy Police</a></li>
-                <li class="footer__list-item"><a href="#">Cockie Police</a></li>
-                <li class="footer__list-item"><a href="#">FAQ</a></li>
+                <li class="footer__list-item"><a href="#">Promoções</a></li>
+                <li class="footer__list-item"><a href="#">Sobre nós</a></li>
+                <li class="footer__list-item"><a href="#">Sobre BTC</a></li>
+                <li class="footer__list-item"><a href="#">Política AML</a></li>
+                <li class="footer__list-item"><a href="#">Termos e Condições</a></li>
+                <li class="footer__list-item"><a href="#">Jogo Responsável</a></li>
+                <li class="footer__list-item"><a href="#">Avisos de risco</a></li>
+                <li class="footer__list-item"><a href="#">Política de Privacidade</a></li>
+                <li class="footer__list-item"><a href="#">Política de Cookies</a></li>
+                <li class="footer__list-item"><a href="#">Perguntas frequentes</a></li>
               </ul>
             </div>
           </nav>
-          <p class="footer__text">© ninecasino.com 2023. All rights reserved.</p>
+          <p class="footer__text">© ninecasino.com.br. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
